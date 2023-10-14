@@ -4,7 +4,7 @@ import TaskShow from "./TaskShow";
 export default function TaskList({ tasks }) {
   console.log(tasks);
   return (
-    <div>
+    <div className="task-list">
       {tasks.map((item, index) => (
         <TaskShow key={index} task={item} />
       ))}
