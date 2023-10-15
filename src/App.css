@@ -7,7 +7,9 @@
 .task-create {
   width: 450px;
 }
-
+.task-update {
+  width: 100%;
+}
 .task-form {
   display: flex;
   flex-direction: column;
@@ -32,7 +34,9 @@
   color: white;
   border-radius: 10px;
 }
-
+.task-button.update {
+  background-color: purple;
+}
 .task-list {
   display: flex;
   flex-wrap: wrap;
@@ -75,4 +79,3 @@
   font-size: 15px;
   width: 100px;
 }
-
